@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bootstrap Practise</title>
+
+</head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<body>
+	<div class="well-small well"><h4 align="center">Practise All Tutorials</h4></div>
+	<div class="span">
+        <form class="well">
+            <label>Username</label>
+            <input type="text" class="span3" placeholder="Type Username Here..." /><br/>
+            <label>Password</label>
+            <input type="text" class="span3" placeholder="Type Password Here..." /><br/>
+            <button class="btn btn-primary">Submit</button>
+            <button class="btn">Cancel</button>
+        </form>
+    </div>
+	<div class="span">
+        <form class="well form-search">
+            <input type="text" class="span3 search-query" placeholder="Search..." />
+            <button class="btn">Search</button>
+        </form>
+    </div>
+    <div class="span">
+    	<form class="well form-inline">
+        	<input type="text" class="span3" placeholder="Username..."/>
+            <input type="text" class="span3" placeholder="Password"/>
+            <button class="btn btn-primary">Login</button>      	
+        </form>
+    </div>
+    <div class="span6 well">
+    	<table class="table table-striped">
+        	<thead>
+            	<tr>
+                	<th>Name</th>
+                    <th>Age</th>
+                    <th>Job</th>
+                </tr>
+            </thead>
+            <tbody>
+            	<tr>
+                	<td>Sahil Verma</td>
+                    <td>23</td>
+                    <td>Web Designer</td>
+                </tr>
+                <tr>
+                	<td>Sahil Verma</td>
+                    <td>23</td>
+                    <td>Web Designer</td>
+                </tr>
+                <tr>
+                	<td>Sahil Verma</td>
+                    <td>23</td>
+                    <td>Web Designer</td>
+                </tr>
+                <tr>
+                	<td>Sahil Verma</td>
+                    <td>23</td>
+                    <td>Web Designer</td>
+                </tr>
+                <tr>
+                	<td>Sahil Verma</td>
+                    <td>23</td>
+                    <td>Web Designer</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+    <div class="span">
+    	<ul class="nav nav-tabs">
+        	<li><a href="javascript:void(0)">Home</a></li>
+            <li class="active"><a href="javascript:void(0)">About</a></li>
+            <li><a href="javascript:void(0)">Products</a></li>
+            <li><a href="javascript:void(0)">Services</a></li>
+            <li><a href="javascript:void(0)">Contact</a></li>
+        </ul>
+        <ul class="nav nav-pills">
+        	<li><a href="javascript:void(0)">Home</a></li>
+            <li class="active"><a href="javascript:void(0)">About</a></li>
+            <li><a href="javascript:void(0)">Products</a></li>
+            <li><a href="javascript:void(0)">Services</a></li>
+            <li><a href="javascript:void(0)">Contact</a></li>
+        </ul>
+        <ul class="nav nav-pills nav-stacked span5">
+        	<li><a href="javascript:void(0)">Home</a></li>
+            <li class="active"><a href="javascript:void(0)">About</a></li>
+            <li><a href="javascript:void(0)">Products</a></li>
+            <li><a href="javascript:void(0)">Services</a></li>
+            <li><a href="javascript:void(0)">Contact</a></li>
+        </ul>
+    </div>
+    <div class="span">
+    	<div class="well">
+        	<button class="btn btn-danger"><i class="icon-trash icon-white"></i>Delete</button>
+            <button class="btn btn-large"><i class="icon-comment icon-black"></i>Leave Comments</button>
+            <button class="btn"><i class="icon-refresh icon-black"></i>Refresh</button>
+        </div>
+    </div>
+    <div class="span">
+    	<a href="javascript:void(0);" id="popover" class="btn btn-primary" rel="popover" data-content="This is the body of Popover" data-original-title="Heading">Popover</a>
+    </div>
+    <div class="span">
+    	<div class="container">
+        	<div class="row">
+            	<div class="span6 well">
+                	
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<script src="js/jquery-1.9.0.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+    <script>
+		$(function(){
+			
+			$('#popover').popover({
+				placement:'left',
+			});
+			
+		});
+	</script>
+</body>
+</html>
